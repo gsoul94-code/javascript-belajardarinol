@@ -4,38 +4,39 @@
         **/
 
 /**
-            operator augmented assigment yang dapat dijalankan di dalam JS :
-            + tambah
-            - kurang
-            * kali
-            / bagi
-            ** exponensial
-            % mod ata sisa bagi
-        **/
-let result = 1;
-document.writeln("result = " + result);
-document.writeln("</br>");
+    operator augmented assigment yang dapat dijalankan di dalam JS :
+    + tambah
+    - kurang
+    * kali
+    / bagi
+    ** exponensial
+    % mod ata sisa bagi
+**/
 
-result += 2;
-document.writeln("result + 2 = " + result);
-document.writeln("</br>");
+let result = 1+2;
+document.writeln("<p>1 + 2 = " + result + "</p>");
+let originalResult = result;
 
-result -= 1;
-document.writeln("result - 1 = " + result);
-document.writeln("</br>");
+result += 1;
+document.writeln("<p>" + originalResult + " + 1 = " + result + "</p>");
+originalResult = result;
+
+result -= 2;
+document.writeln("<p>" + originalResult + " - 2 = " + result + "</p>");
+originalResult = result;
 
 result *= 5;
-document.writeln("result x 5 = " + result);
-document.writeln("</br>");
+document.writeln("<p>" + originalResult + " x 5 = " + result + "</p>");
+originalResult = result;
 
 result /= 2;
-document.writeln("result / 2 = " + result);
-document.writeln("</br>");
+document.writeln("<p>" + originalResult + " : 2 = " + result + "</p>");
+originalResult = result;
 
 result **= 2;
-document.writeln("result ** 2 = " + result);
-document.writeln("</br>");
+document.writeln("<p>" + originalResult + " Pangkat 2 = " + result + "</p>");
+originalResult = result;
 
 result %= 2;
-document.writeln("result mod 2 = " + result);
-document.writeln("</br>");
+document.writeln("<p>" + originalResult + " Mod 2 = " + result + "</p>");
+originalResult = result;
