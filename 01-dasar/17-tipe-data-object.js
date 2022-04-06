@@ -13,3 +13,28 @@
     ~ index di object biasanya disebut attributes atau properties, bukan index
 */
 
+
+const orang = {}
+
+// Menambah atau Mengubah
+orang["nama"] = "Angga";
+orang["alamat"] = "Balikpapan";
+orang["umur"] = 28;
+console.table(orang);
+
+// Menghapus
+// delete orang["umur"];
+// console.table(orang);
+
+// Membuat object langsung dengan properties
+const buah = {
+    nama: "Apel",
+    warna: "Merah",
+    harga: 32000
+};
+console.table(buah);
+
+// Mengakses Property Object
+console.log(`Nama = ${buah.nama}`);
+console.log(`Warna = ${buah.warna}`);
+console.log(`Harga = ${buah.harga}`);
