@@ -52,5 +52,35 @@ document.writeln(`<p>parseInt("2abc") = ${cth4Val1}<br>
 parseFloat("1.1as") = ${cth4Val2}<br>
 Number("bukan number"); = ${cth4Val3}</p>`);
 
+document.writeln(`<hr>`);
+document.writeln(`NaN`);
+
+const cth5Val1 = Number("Salah"); // hasilnya NaN
+const cth5Val2 = 100;
+const cth5Sum = cth5Val1 + cth5Val2; // hasilnya NaN
+
+document.writeln(`<p>${cth5Val1} + ${cth5Val2} = ${cth5Sum}</p>`);
+
+/*
+    isNaN() Function
+    ~ Kadang kita ingin mengecek apakah sebuah number itu NaN atau bukan.
+    ~ Untuk melakukan pengecekkan tersebut, kita bisa menggunakan function isNaN(number);
+    ~ Hasilnya adalah berupa data boolean, true jika NaN, false jika bukan.
+*/
+
+document.writeln(`isNaN(number)`)
+
+document.writeln(`<p>Apakah ${cth5Sum} adalah NaN? ${isNaN(cth5Sum)}</p>`);
+document.writeln(`<p>Apakah 100 adalah NaN? ${isNaN(100)}</p>`);
+
+
+
+
+
+
+
+
+
+
 
 
