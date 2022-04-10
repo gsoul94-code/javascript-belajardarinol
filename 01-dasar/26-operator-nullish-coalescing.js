@@ -13,4 +13,6 @@ if(data1 === undefined || data1 == null){
 console.log(data1);
  
 // dengan nullish coalescing
-//
+let param2;
+let data2 = param2 ?? `Nilai default = ${param2}`;;
+console.log(data2);
