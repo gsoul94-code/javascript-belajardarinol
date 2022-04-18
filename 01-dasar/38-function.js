@@ -1,0 +1,13 @@
+/*
+    Function
+    ~ Function adadah blok kode program yang akan berjalan saat kita panggil
+    ~ Sebelumnya kita sudah menggunakan function writeln() untuk menampilkan tulisan di html
+    ~ Untuk membuat function, kita bisa menggunakan kata kunci function, lalu diikuti dengan nama function, kurung () dan diakhiri dengan blok kurung {}
+    Di bahasa pemrograman lain, function juga disebut dengan method
+*/
+
+// contoh function 1
+function helloWorld(){
+    document.writeln(`<p>Hello World</p>`);
+}
+helloWorld(); // panggil nama function diikuti ()
